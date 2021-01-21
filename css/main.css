@@ -1,5 +1,12 @@
 html {
-    background-color: #4e5d58;
+    /* background-color: #4e5d58; */
+    /* background-color: #000; */
+    background-color: #FCF8F5;
+    /* background-color: papayawhip; */
+}
+
+::selection {
+    background-color: #FE924A;
 }
 
 header {
@@ -10,26 +17,90 @@ header>h1 {
     text-align: center;
     font-size: 100px;
     font-family: 'GT Walsheim Pro Oblique';
-    margin: 0 0 0 170px;
+    margin: 0 0 0 150px;
     padding: 15px 30px 0 30px;
     display: inline-block;
 }
 
 header a {
     text-decoration: none;
-    color: white;
-    transition-duration: 0.3s;
+    color: #212121;
 }
 
-header a:hover {
-    text-shadow: 6px 6px 0px #40e0d0;
-
+header > h1 > a {
+    transition-duration: 0.2s;
+    text-shadow: 5px 5px 0px #FE924A;
 }
 
+header > h1 > a:hover {
+    color: #FE924A;
+    text-shadow: 5px 5px 0px #212121;
+}
+
+/* 메뉴바 */
+.items a {
+    display: inline-block;
+    text-decoration: none;
+    color: #151515;
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 17px;
+    margin: 0 12px;
+    padding-bottom: 3px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.items {
+    float: right;
+    margin-right: 170px;
+    padding-top: 60px;
+}
+
+.items a span {
+    display: inline-block;
+    transition: transform 500ms;
+}
+
+.items a span:after {
+    /* CSS content 속성은 생성한 값으로 요소를 대체합니다. */
+    /* 대체한 요소 = 익명 대체 요소 */
+    /* attr() : HTML 속성값으로 연결 */
+    content: attr(data-hover); 
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    border-bottom: 3px solid #ffa66a;
+}
+
+.items a:hover span,
+.items a:focus span {
+    transform: translateY(30px);
+}
+
+/* 메인 */
 section {
     background-color: white;
-    margin: 10px 200px;
+    margin: 10px 170px;
     padding: 35px 70px;
     text-align: center;
+    font-family: 'NanumSquareRound', 'GT Walsheim Pro Light';
+    color: #151515;
 }
 
+/* 푸터 */
+footer {
+    background-color: white;
+    color: #151515;
+    margin: 10px 170px;
+    padding: 35px 70px 10px 70px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-family: 'NanumSquareRound', 'GT Walsheim Pro Thin';
+    font-size: 14px;
+}
+
+footer a {
+    color: #151515;
+}
