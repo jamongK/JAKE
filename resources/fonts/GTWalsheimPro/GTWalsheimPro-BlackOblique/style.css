@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GT Walsheim Pro Oblique';
+    src: local('GT Walsheim Pro Black Oblique'), local('GT-Walsheim-Pro-Black-Oblique'),
+        url('GTWalsheimPro-BlackOblique.woff2') format('woff2'),
+        url('GTWalsheimPro-BlackOblique.woff') format('woff'),
+        url('GTWalsheimPro-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

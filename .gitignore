@@ -1,30 +1,29 @@
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.ttf
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.woff
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.woff2
-resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.ttf
-resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.woff
-resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.woff2
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/style.css
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.ttf
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.woff2
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.woff
-resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/style.css
-css/style.css
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/style.css
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.ttf
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.woff
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/style.css
-resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.woff2
-resources/images/interests/M_billions.png
-resources/images/interests/M_fantasticmrfox.png
-resources/images/interests/M_gameofthrones.png
-resources/images/interests/M_umbrellaacademy.png
-resources/images/interests/S_bayern_완성2.png
-resources/images/interests/S_liverpool_완성3.png
-resources/images/interests/S_Napoli_완성3.png
-resources/images/interests/S_PSG_완성3.png
-resources/images/interests/S_Tottenham_완성2.png
-resources/images/interests/T_France_완성.png
-resources/images/interests/T_Germany_완성.png
-resources/images/interests/T_Jeju_완성.png
-resources/images/interests/T_Slovenia_완성.png
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.ttf
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.woff
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/GTWalsheimPro-Black.woff2
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.ttf
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.woff
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/GTWalsheimPro-BlackOblique.woff2
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/style.css
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.ttf
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.woff2
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/GTWalsheimPro-Light.woff
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/style.css
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Light/style.css
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.ttf
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.woff
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/style.css
+# resources/fonts/GTWalsheimPro/GTWalsheimPro-Thin/GTWalsheimPro-Thin.woff2
+# resources/images/interests/M_billions.png
+# resources/images/interests/M_fantasticmrfox.png
+# resources/images/interests/M_gameofthrones.png
+# resources/images/interests/M_umbrellaacademy.png
+# resources/images/interests/S_bayern_완성2.png
+# resources/images/interests/S_liverpool_완성3.png
+# resources/images/interests/S_Napoli_완성3.png
+# resources/images/interests/S_PSG_완성3.png
+# resources/images/interests/S_Tottenham_완성2.png
+# resources/images/interests/T_France_완성.png
+# resources/images/interests/T_Germany_완성.png
+# resources/images/interests/T_Jeju_완성.png
+# resources/images/interests/T_Slovenia_완성.png
