@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
 html {
-    background-color: #FCF8F5;
+    /* background-color: #FCF8F5; */
+    background-color: #fdf9f6;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 ::selection {
-    background-color: #FE924A;
+    background-color: #feaa4a;
 }
 
 header {
@@ -12,9 +18,9 @@ header {
 
 header>h1 {
     text-align: center;
-    font-size: 100px;
+    font-size: 85px;
     font-family: 'GT Walsheim Pro Oblique';
-    margin: 0 0 0 150px;
+    margin: 0 0 0 10px;
     padding: 15px 30px 0 30px;
     display: inline-block;
 }
@@ -35,22 +41,23 @@ header > h1 > a:hover {
 }
 
 /* 메뉴바 */
+.items {
+    float: right;
+    margin-right: 30px;
+    padding-top: 60px;
+}
+
 .items a {
     display: inline-block;
     text-decoration: none;
     color: #151515;
-    font-family: 'GT Walsheim Pro Light';
-    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
     margin: 0 12px;
     padding-bottom: 3px;
-    height: 20px;
+    height: 25px;
     overflow: hidden;
-}
-
-.items {
-    float: right;
-    margin-right: 170px;
-    padding-top: 60px;
 }
 
 .items a span {
@@ -78,26 +85,27 @@ header > h1 > a:hover {
 /* 메인 */
 section {
     background-color: white;
-    margin: 10px 170px;
-    padding: 35px 70px;
+    padding: 35px 60px;
+    margin: 0 30px;
     text-align: center;
-    font-family: 'NanumSquareRound', 'GT Walsheim Pro Light';
-    color: #151515;
+    font-family: 'Noto Sans KR';
+    font-size: 15px;
+    color: #263747;
 }
 
 /* 푸터 */
 footer {
     background-color: white;
     color: #151515;
-    margin: 10px 170px;
-    padding: 35px 70px 10px 70px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin: 0 30px 45px 30px;
     text-align: center;
-    position: relative;
-    top: -10px;
-    font-family: 'NanumSquareRound', 'GT Walsheim Pro Thin';
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
     font-size: 14px;
 }
 
 footer a {
-    color: #151515;
+    color: #263747;
 }
