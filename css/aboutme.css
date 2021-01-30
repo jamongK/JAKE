@@ -1,26 +1,83 @@
 body {
     width: 948px;
-    /* border: 1px solid black; */
     margin: 0 auto;
 }
 
+/* 메인 콘텐츠 */
 section {
+    padding: 35px 20px;
+}
+
+
+
+/* 페이지 주요 내용 부모 div - display: flex; 설정 위한 div */
+.parent {
+    clear: both;
     display: flex;
     padding: 0;
 }
 
-
+/* 좌 - 개인 정보란 */
 .personal-info {
     background-color: white;
     float: left;
     text-align: left;
     width: 300px;
-    padding: 35px 30px;
+    padding: 35px 20px;
     font-family: 'Noto Sans KR';
     font-size: 15px;
     color: #263747;
 }
 
+.myname {
+    font-size: 35px;
+    margin: 10px 0 15px 0;
+}
+
+.addrs {
+    margin-bottom: 5px;
+}
+
+.personal-info img {
+    width: 12px;
+}
+
+.personal-info a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #263747;
+    margin-left: 5px;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+/* 기술 스택 */
+.tech-stack {
+    display: flex;
+}
+
+.area1 {
+    float: left;
+    width: 50%;
+}
+
+.area2 {
+    float: right;
+    width: 50%;
+}
+
+.skill {
+    border-radius: 5px;
+    background-color: #E9ECF3;
+    padding: 2px 7px;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* 우 - 스펙 작성란 */
 .resume {
     background-color: white;
     float: right;
@@ -32,6 +89,43 @@ section {
     color: #263747;
 }
 
-/* footer {
-    clear: both;
-} */
+.card {
+    margin-bottom: 20px;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #D7E2EB;
+}
+
+.card-category {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.card-body h3, span {
+    display: inline-block;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.dates {
+    color: #98A8B9;
+    float: right;
+    margin-top: 22px;
+}
+
+.card-content-first {
+    margin-top: 13px;
+    font-size: 16px;
+}
+
+.card-content {
+    margin-top: 3px;
+    font-size: 16px;
+}

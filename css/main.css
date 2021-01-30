@@ -93,6 +93,20 @@ section {
     color: #263747;
 }
 
+/* section 상단 페이지 명 */
+.page-name {
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    border-bottom: 4px solid #ffa66a;
+    border-left: 10px groove #ffa66a;
+    padding-left: 15px;
+    float: left;
+}
+
+.orange {
+    color: #FE924A;
+}
+
 /* 푸터 */
 footer {
     /* background-color: white; */

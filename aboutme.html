@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jake's | About Me</title>
+    <title>JAKE | About Me</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="./resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/style.css">
     <link rel="stylesheet" href="./resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/style.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -24,14 +25,77 @@
     </header>
 
     <section>
-        <div class="personal-info" id="personal-info">
-            <h1 class="intro-name" id="intro-name">김자경</h1>
-            <hr color="lightgray" size="5">
-        </div>
-        <div class="resume" id="resume">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laborum fuga assumenda inventore iusto recusandae? A eligendi, enim laborum fugit, harum tempore voluptas asperiores animi, ullam corporis perferendis quas quia!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laborum fuga assumenda inventore iusto recusandae? A eligendi, enim laborum fugit, harum tempore voluptas asperiores animi, ullam corporis perferendis quas quia!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laborum fuga assumenda inventore iusto recusandae? A eligendi, enim laborum fugit, harum tempore voluptas asperiores animi, ullam corporis perferendis quas quia!</p>
+        <h1 class="page-name"> About <span class="orange">Me</span></h1>
+        <div class="parent">
+            <div class="personal-info" id="personal-info">
+                <h1 class="myname" id="myname">김자경</h1>
+
+                <div class="addrs">
+                    <img src="./resources/images/aboutme/phone-call.png" alt="phone icon">
+                    <a href="tel:+821012345678">01012345678</a>
+                </div>
+                <div class="addrs">
+                    <img src="./resources/images/aboutme/email.png" alt="evelope icon">
+                    <a href="mailto:abcde@gmail.com">abcde@gmail.com</a>
+                </div>
+                <div class="addrs">
+                    <img src="./resources/images/aboutme/github.png" alt="github icon">
+                    <a href="https://github.com/" target="_blank">https://github.com/jake</a>
+                </div>
+
+                <hr color="#E9ECF3" size="1">
+
+                <h4>기술 스택</h4>
+                <div class="tech-stack" id="tech-stack">
+                    <div class="area1" id="area1">
+                        <span class="skill" id="skill">Java</span><br>
+                        <span class="skill" id="skill">C</span><br>
+                        <span class="skill" id="skill">Python</span><br>
+                        <span class="skill" id="skill">HTML</span><br>
+                        <span class="skill" id="skill">CSS</span><br>
+                    </div>
+                    <div class="area2" id="area2">
+                        <span class="skill" id="skill">Javascript</span><br>
+                        <span class="skill" id="skill">JQuery</span><br>
+                        <span class="skill" id="skill">Bootstrap</span><br>
+                        <span class="skill" id="skill">Oracle</span><br>
+                        <span class="skill" id="skill">MySQL</span><br>
+                    </div>
+                </div>
+            </div>
+            <div class="resume">
+                <div class="card">
+                    <span class="card-category">학력</span>
+                    <div class="card-body">
+                        <h3>OO대학교</h3>
+                        <span class="dates">2016-03 ~ 2021-02</span><br>
+                        <span class="card-content-first">OOOOO 전공 • 학사</span><br>
+                        <span class="card-content">N.NN / 4.5 학점</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <span class="card-category">프로젝트</span>
+
+                    <div class="card-body">
+                        <h3>맥주 큐레이터</h3>
+                        <span class="dates">2020</span><br>
+                        <span class="card-content-first">맥주 정보 제공 및 맥주 종류 추천 웹사이트</span><br>
+                        <span class="card-content">* 맥주 역사, 종류, 컵 종류, 세계 맥주 산업 소개</span><br>
+                        <span class="card-content">* 쓴 맛 정도, 맥아 맛 정도, 탄산감 기준 맥주 종류 추천</span><br>
+                        <span class="card-content">* 사용자에 문의 게시판을 통한 서비스 관련 문의 기능 지원</span><br>
+                        <span class="card-content">* 회원 가입 / 로그인 기능</span>
+                    </div>
+                    <br>
+                    <div class="card-body">
+                        <h3>Java Swing 단어장 프로그램</h3>
+                        <span class="dates">2020</span><br>
+                        <span class="card-content-first">Swing을 이용한 단어장 및 암기 테스트 프로그램</span><br>
+                        <span class="card-content">* 단어장 목록에 단어 추가, 삭제, 검색 기능 구현</span><br>
+                        <span class="card-content">* 단어장 프로그램에 기록한 단어 .txt파일로 추출 기능 지원</span><br>
+                        <span class="card-content">* 단어장 목록에 추가한 단어들에 한해 영-한 암기 테스트 구현</span><br>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
