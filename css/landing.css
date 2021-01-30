@@ -1,0 +1,66 @@
+body {
+    font-family: 'GT Walsheim Pro Black';
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    list-style: none;
+    padding: 0;
+    width: max-content;
+}
+
+#entrance {
+    cursor: pointer;
+}
+
+html {
+    height: 100%;
+    position: relative;
+}
+
+.text {
+    border-bottom: 4px solid #ffa66a;
+}
+
+.text li {
+    display: inline;
+    float: left;
+    font-weight: 700;
+    font-size: 100px;
+    max-width: 100px;
+    color: #263747;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    /* ease-in-out */
+    /* transition-property --> all */
+}
+
+.text.hidden li.spaced {
+    padding-left: 0;
+}
+
+.text li.spaced {
+    padding-left: 30px;
+}
+
+.text.hidden li.ghost {
+    opacity: 0;
+    max-width: 0;
+}
+
+.cRight>a {
+    text-decoration: none;
+    color: #263747;
+    font-size: 15px;
+}
+
+.jkRsv {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    color: #263747;
+    font-size: 15px;
+}
