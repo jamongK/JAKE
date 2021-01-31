@@ -17,7 +17,7 @@
             <nav class="main-nav">
                 <a href="./interests.html"><span data-hover="Interests">Interests</span></a>
                 <a href="./roadmap.html"><span data-hover="Web Developer Roadmap">Web Developer Roadmap</span></a>
-                <a href="./guestbook.html"><span data-hover="Guestbook">Guestbook</span></a>
+                <a href="./members.html"><span data-hover="Members">Members</span></a>
                 <a href="./signup.html"><span data-hover="Sign Up">Sign Up</span></a>
             </nav>
         </div>
@@ -25,12 +25,12 @@
 
     <section>
         <p class="desc">Create an account</p>
-        <form action="POST">
+        <form action="javascript:saveAccount();" name="signUp">
             <table >
                 <tr>
                     <td>
                         <label for="userId">ID </label><br>
-                        <input type="text" name="userId" id="userId" placeholder="영 대소문자 5~10자 이하"><br>
+                        <input type="text" name="userId" id="userId" placeholder="영 대소문자 5~10자 이하" oninput="idValidation();"><br>
                         <p id="reg1">x 5-10 characters</p><br>
                         <p id="reg2">x Uppercase or lowercase letters</p>
                     </td>
@@ -38,7 +38,7 @@
                 <tr>
                     <td>
                         <label for="userPw">Password </label><br>
-                        <input type="text" name="userPw" id="userPw"><br>
+                        <input type="password" name="userPw" id="userPw" placeholder="숫자 6자 이상" oninput="pwValidation();"><br>
                         <!-- 숫자 6자이상 -->
                         <p id="reg3">x At least 6 characters</p><br>
                         <p id="reg4">x Numeric characters only</p>
@@ -46,7 +46,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <button type="submit" class="signup-btn" id="signup-btn">Sign up</button>
+                        <button type="submit" class="signup-btn btn" id="signup-btn">Sign up</button>
                     </td>
                 </tr>
             </table>

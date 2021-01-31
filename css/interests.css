@@ -13,6 +13,7 @@
     background-image: linear-gradient(-60deg, #ff9a44 0%, #fc6076 100%);
     margin-right: 30px;
     z-index: 10;
+    box-shadow: -1px 1px 5px 1px #464646;
 }
 
 .tm > .first-card {
@@ -48,6 +49,7 @@
     transform: translateY(-50px);
 }
 
+/* hover 하는 요소 이후의 요소들에 x축 30px 이동 */
 .card:hover ~ .card {
     transform: translateX(30px);
 }

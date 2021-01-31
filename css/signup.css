@@ -20,16 +20,17 @@ td {
 label {
     float: left;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"] {
     border-radius: 4px;
     border: 1px solid #cacaca;
-    height: 22px;
+    height: 25px;
     width: 220px;
     margin-bottom: 5px;
+    font-size: 14px;
 }
 
 #reg1, #reg2, #reg3, #reg4 {

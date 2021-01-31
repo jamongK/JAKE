@@ -1,0 +1,17 @@
+.wrapper {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+
+th {
+    background-color: #FE924A;
+}
+
+td {
+    padding: 10px 20px;
+}
