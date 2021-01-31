@@ -56,7 +56,7 @@ header > h1 > a:hover {
     font-size: 16px;
     margin: 0 12px;
     padding-bottom: 3px;
-    height: 25px;
+    height: 26px;
     overflow: hidden;
 }
 
@@ -85,7 +85,7 @@ header > h1 > a:hover {
 /* 메인 */
 section {
     background-color: white;
-    padding: 35px 60px;
+    padding: 35px 20px;
     margin: 0 30px;
     text-align: center;
     font-family: 'Noto Sans KR';
@@ -96,11 +96,13 @@ section {
 /* section 상단 페이지 명 */
 .page-name {
     margin: 0 0 0 20px;
-    font-size: 30px;
     border-bottom: 4px solid #ffa66a;
     border-left: 10px groove #ffa66a;
     padding-left: 15px;
+    font-size: 30px;
+    font-family: 'Open Sans';
     float: left;
+    cursor: default;
 }
 
 .orange {

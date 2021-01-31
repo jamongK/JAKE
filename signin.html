@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAKE | Web Developer Roadmap</title>
+    <title>JAKE | Sign In</title>
     <link rel="stylesheet" href="./resources/fonts/GTWalsheimPro/GTWalsheimPro-Black/style.css">
     <link rel="stylesheet" href="./resources/fonts/GTWalsheimPro/GTWalsheimPro-BlackOblique/style.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
     <header>
@@ -23,12 +24,28 @@
     </header>
 
     <section>
-        <h1 class="page-name"> Web Developer <span class="orange">Roadmap</span></h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <img src="./resources/images/Roadmap/roadmap.png" alt="roadmap image" style="width: 800px;">
+        <p class="desc">Sign in to your account</p>
+        <form action="POST">
+            <table >
+                <tr>
+                    <td>
+                        <label for="userId">ID </label><br>
+                        <input type="text" name="userId" id="userId">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="userPw">Password </label><br>
+                        <input type="text" name="userPw" id="userPw">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="signin-btn" id="signin-btn">Sign In</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </section>
 
     <footer>
