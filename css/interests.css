@@ -2,24 +2,34 @@
     display: grid;
 }
 
-.football-area {
+.cards-area {
     display: flex;
-    margin: 50px auto 10px auto;
+    margin: 50px auto 25px auto;
 }
 
-.flag-card {
+.first-card {
     width: 180px;
     border-radius: 12px;
-    background-image: linear-gradient(-20deg, #ff9a44 0%, #fc6076 100%);
+    background-image: linear-gradient(-60deg, #ff9a44 0%, #fc6076 100%);
+    margin-right: 30px;
+    z-index: 10;
 }
 
-.flag-card > h1 {
+.tm > .first-card {
+    background-image: linear-gradient(-60deg, #517fa4 0%, #243949 100%);
+}
+
+.trv > .first-card {
+    background-image: linear-gradient(-60deg, #f4d03f 0%, #16a085 100%);
+    
+}
+
+.first-card > h1 {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     float: left;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin: 10px 0 0 15px;
 }
 
 .card {
