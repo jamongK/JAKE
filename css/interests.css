@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+}
+
+.football-area {
+    display: flex;
+    margin: 50px auto 10px auto;
+}
+
+.flag-card {
+    width: 180px;
+    border-radius: 12px;
+    background-image: linear-gradient(-20deg, #ff9a44 0%, #fc6076 100%);
+}
+
+.flag-card > h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    display: block;
+    width: 180px;
+    border-radius: 12px;
+    box-shadow: -2px 4px 7px 2px #464646;
+    transition: .3s;
+}
+
+.card:not(:first-child) {
+    margin-left: -20px;
+}
+
+.card:hover {
+    transform: translateY(-50px);
+}
+
+.card:hover ~ .card {
+    transform: translateX(30px);
+}

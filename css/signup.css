@@ -29,6 +29,14 @@ input[type="text"] {
     border: 1px solid #cacaca;
     height: 22px;
     width: 220px;
+    margin-bottom: 5px;
+}
+
+#reg1, #reg2, #reg3, #reg4 {
+    color: red;
+    margin: 0;
+    float: left;
+    font-size: 12px;
 }
 
 .signup-btn, .signin-btn {
