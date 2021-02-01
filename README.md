@@ -8,6 +8,41 @@
 
 &nbsp;
 
+## [ 구성 ]
+- Landing 페이지
+    - index.html
+    - main.css
+    - landing.css
+    - landing.js
+- 자기 소개(About Me) 페이지
+    - aboutme.html
+    - main.css
+    - aboutme.css
+    - aboutme.js
+- 관심사(Interests) 페이지
+    - interests.html
+    - main.css
+    - interests.css
+- 개발자 로드맵(Web Developer Roadmap) 페이지
+    - roadmap.html
+    - main.css
+- 회원목록(Members) 페이지
+    - members.html
+    - main.css
+    - members.css
+    - members.js
+- 회원가입(Sign Up) 페이지
+    - signup.html
+    - main.css
+    - signup.css
+    - signup.js
+- 로그인(Sign In) 페이지
+    - signin.html
+    - main.css
+    - signup.css
+    
+&nbsp;
+
 ## [ 요구사항 및 제출시 유의사항 ]
 
 ### 요구사항
