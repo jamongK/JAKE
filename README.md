@@ -1,6 +1,6 @@
 # Jake
 > Making personal website. <br/>
-> Due date : Feb 1st, 2021
+> v1.0.0 : Feb 1st, 2021
 
 &nbsp;
 
