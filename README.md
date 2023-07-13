@@ -36,10 +36,7 @@
     - main.css
     - signup.css
     - signup.js
-- 로그인(Sign In) 페이지
-    - signin.html
-    - main.css
-    - signup.css
+
     
 &nbsp;
 
@@ -58,7 +55,6 @@
 ### 기능
 * 회원가입: form태그와 디자인 먼저 구현후, web-storage 학습후 완성할 것.
 * 회원목록열람
-* 로그인(선택)
 
 &nbsp;
 
